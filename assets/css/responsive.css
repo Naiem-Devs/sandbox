@@ -1,27 +1,428 @@
 /* Big screen :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-
+    .faq_collaps{
+    max-width: 1000px;
+}
+.menu-area{
+    margin-right: -40px;
+}
 }
 
 
 /* Normal screen :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-
+    .faq_collaps{
+        max-width: 933px;
+    }
+    .menu-area{
+        margin-right: -15px;
+    }
+    .svc_blk{
+    padding: 40px 15px;
+}
+.svc_blk h4 {
+    font-size: 19px;
+}
 
 }
 
  
 /* Tablet screen :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    
+/*==========Home page Start */
+.header_top a {
+    font-size: 13px;
+    width: max-content;
+    display: inline-block;
+}
+.hero_area .row {
+    flex-direction: column-reverse;
+}
 
+.hero_cont {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.waw_left.waw_pdg{
+    padding-left: 10px;
+}
+.feedback_cont {
+    padding: 50px 0;
+}
 
+.client_wrp img {
+    height: 300px;
+}
+
+.client_area {
+    padding: 125px 0;
+}
+
+.faq_area .sec_title h2 {
+    font-size: 30px;
+}
+
+.faq_collaps .accordion-item button {
+    padding-left: 30px;
+    text-align: left;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.faq_collaps .accordion-item button:after {
+    left: 12px;
+}
+
+.faq_collaps .accordion-item {
+    width: 49%;
+    margin-bottom: 20px;
+}
+
+.faq_collaps {
+    padding: 0 20px;
+}
+.mobile_apps_cont {
+    text-align: center;
+    margin: 50px auto;
+}
+.footer_content {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.footer_form {
+    margin: auto;
+    max-width: 440px;
+}
+.footer_info {
+    margin-bottom: 30px;
+}
+/*=====================Home page Start */
+
+/*==========Profile page Start */
+section.creative_area .row {
+    flex-direction: column-reverse;
+}
+
+section.creative_area .crtv .row {
+    flex-direction: unset;
+}
+
+.creative_img img {
+    max-width: 500px;
+    margin: auto;
+}
+
+.creative_img {
+    text-align: center;
+}
+
+.creative_area .svc_blk {
+    margin-bottom: 35px;
+}
+
+.crtv {
+    margin-top: -50px;
+}
+.choose_img img {
+    max-width: 500px;
+    margin: auto;
+}
+
+.choose_img {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.app_download_img {
+    max-width: 420px;
+    margin: auto;
+}
+/*=====================Profile page Start */
+
+/*========== page Start */
+.waw_left h2{
+    margin-bottom: 10px;
+}
+
+main.service .waw_left a {
+    padding: 9px 25px;
+    margin-top: 20px;
+}
+/*===================== page Start */
+h2{
+    font-size: 28px;
+}
 }
 
  
 /* small screen :320px. */
 @media (max-width: 767px) {
+/*==========Home page Start */
+.header_top a {
+    font-size: 13px;
+    display: inline-block;
+    text-align: center;
+}
+.hero_area .row {
+    flex-direction: column-reverse;
+}
 
+.hero_cont {
+    padding-bottom: 50px;
+    text-align: center;
+}
+.waw_left.waw_pdg{
+    padding-left: 10px;
+}
+.feedback_cont {
+    padding: 25px 0 50px;
+}
+
+.client_wrp img {
+    height: 300px;
+    width: 100%;
+}
+
+.client_area {
+    padding: 125px 0;
+}
+
+.faq_area .sec_title h2 {
+    font-size: 24px;
+    width: 90%;
+    margin: auto;
+}
+
+.faq_collaps .accordion-item button {
+    padding-left: 40px;
+    text-align: left;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.faq_collaps .accordion-item button:after {
+    left: 20px;
+}
+
+.faq_collaps .accordion-item {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.faq_collaps {
+    padding: 0 20px;
+}
+.mobile_apps_cont {
+    text-align: center;
+    margin: 50px auto;
+}
+.footer_content {
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.footer_form {
+    margin: auto;
+    max-width: 440px;
+}
+.footer_info {
+    margin-bottom: 30px;
+}
+.happy_clients img {
+}
+
+.hero-img img {
+    width: 300px;
+}
+
+.header_top_left {}
+
+.header_top {
+    text-align: center;
+    display: none;
+}
+
+.happy_clients {
+    right: 0;
+    bottom: 12%;
+}
+
+.feedback_img img {
+    max-width: 300px;
+}
+
+.mobile_apps_img img {
+    max-width: 300px;
+}
+.hero_cont h2 {
+    font-size: 30px;
+}
+
+.hero_btn a {
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.waw_left {
+    text-align: center;
+}
+section.WhoAreWe .row:nth-child(1),
+section.WhoAreWe .row:nth-child(3)
+{
+    flex-direction: column-reverse;
+}
+.waw_img {
+    margin-bottom: 25px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section.WhoAreWe .row {
+    margin-bottom: 30px;
+}
+
+.waw_left h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+main.service .waw_left a {
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.feedback_cont ul {
+    margin-bottom: 10px;
+}
+
+.feedback_cont p {
+    font-size: 18px;
+}
+
+.client_wrp h2 {
+    font-size: 22px;
+}
+
+.faq_area .bg_color {
+    padding: 40px 0;
+}
+
+.blog_blk_btm {
+    margin-top: 30px;
+}
+
+.mobile_apps_btn a {
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.footer_content h2 {
+    font-size: 24px;
+}
+
+.footer_wrp {
+    padding: 50px 20px;
+}
+
+.footer_form input, .footer_form textarea {
+    width: 100%;
+}
+
+.footer_form textarea {
+    height: 125px;
+}
+
+.footer_blk {
+    margin-bottom: 40px;
+}
+
+footer.footer {
+    padding: 50px 0 0;
+}
+/*=====================Home page Start */
+
+/*==========Profile page Start */
+section.creative_area .row {
+    flex-direction: column-reverse;
+}
+
+section.creative_area .crtv .row {
+    flex-direction: unset;
+}
+
+.creative_img img {
+    max-width: 500px;
+    margin: auto;
+}
+
+.creative_img {
+    text-align: center;
+}
+
+.creative_area .svc_blk {
+    margin-bottom: 35px;
+}
+
+.crtv {
+    margin-top: -50px;
+}
+.choose_img img {
+    max-width: 500px;
+    margin: auto;
+}
+
+.choose_img {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.app_download_img {
+    max-width: 420px;
+    margin: auto;
+}
+.choose_cont {
+    text-align: center;
+}
+
+.creative_content {
+    text-align: center;
+}
+
+.sec_title {
+    text-align: center;
+}
+
+.app_download_wrp {
+    flex-wrap: wrap;
+}
+
+.app_download_blk {
+    text-align: center;
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.app_download_blk i {
+    margin: auto;
+    margin-bottom: 10px;
+}
+/*=====================Profile page Start */
+main.service .svc_blk {
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 30px;
+}
  
 }
  
