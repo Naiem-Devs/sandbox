@@ -143,9 +143,37 @@ li {
 .main-header {
     padding-top: 20px;
 }
-.menu-area nav ul li {
+.menu-area nav ul > li {
   list-style: none;
   display: inline-block;
+  position: relative;
+}
+
+.menu-area nav ul li ul li {
+    display: block;
+}
+
+.menu-area nav ul li ul li {}
+
+.menu-area nav ul li ul {
+    position: absolute;
+    text-align: left;
+    background: #ffffff;
+    padding: 20px;
+    padding-left: 0;
+    width: max-content;
+    padding-bottom: 5px;
+    left: 26px;
+    height: 0;
+    opacity: 0;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+.menu-area nav ul li:hover ul {
+    height: auto;
+    opacity: 1;
+    z-index: 99;
 }
 
 .menu-area nav ul li a {
@@ -157,6 +185,13 @@ li {
   text-transform: capitalize;
   transition: all .3s ease-in-out;
   margin-left: 40px;
+}
+
+.menu-area nav ul li ul li a {
+    margin: auto;
+    margin-left: 25px;
+    margin-bottom: 11px;
+    font-size: 16px;
 }
 
 .menu-area nav ul li a.active {
@@ -822,7 +857,6 @@ a.google-play {
 
 footer.footer{
   padding: 100px 0 50px;
-  border-top: 1px solid #0000000d;
 }
 
 
@@ -845,7 +879,7 @@ footer.footer{
 
 .footer_info p {
   font-size: 18px;
-  max-width: 230px;
+  max-width: 289px;
 }
 
 .social li {
