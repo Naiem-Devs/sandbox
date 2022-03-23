@@ -111,7 +111,7 @@ li {
 .thm_btn{
     background: var(--blue_color);
     font-weight: 500;
-    padding: 12px 26px;
+    padding: 13px 26px;
     color: #fff;
     border-radius: 30px;
     display: block;
@@ -153,8 +153,6 @@ li {
     display: block;
 }
 
-.menu-area nav ul li ul li {}
-
 .menu-area nav ul li ul {
     position: absolute;
     text-align: left;
@@ -168,6 +166,7 @@ li {
     opacity: 0;
     z-index: -1;
     transition: all .3s ease-in-out;
+    padding-top: 30px;
 }
 
 .menu-area nav ul li:hover ul {
@@ -185,6 +184,18 @@ li {
   text-transform: capitalize;
   transition: all .3s ease-in-out;
   margin-left: 40px;
+}
+
+.menu-area nav ul li a i {
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 2px;
+    transform: translateY(4px) translateX(4px);
+    transition: all .3s ease-in-out;
+}
+
+.menu-area nav ul li a:hover i {
+    transform: translateY(4px) rotate(180deg);
 }
 
 .menu-area nav ul li ul li a {
@@ -252,7 +263,7 @@ li {
 .header_top_right a {
     margin-left: 20px;
 }
-.menu-area {text-align: right;margin-right: -70px;}
+.menu-area {text-align: right;margin-right: -20px;}
 .header_btn {text-align: right;}
 
 .header_btn a.btn {
@@ -261,6 +272,9 @@ li {
     padding: 12px 26px;
     line-height: 1.4;
     color: #fff;
+    margin-left: 10px;
+    border-radius: 30px;
+    text-transform: capitalize;
 }
 
 
@@ -379,7 +393,7 @@ li {
 
 
 
-/*  Section Start */
+/*hero_area  Section Start */
 
 section {
     margin-bottom: 120px;
@@ -451,10 +465,10 @@ a.hero_btn_2 {
     font-weight: 500;
     padding-top: 10px;
 }
-/*  Section End */
+/* hero_area Section End */
 
 
-/*  Section Start */
+/* service_area Section Start */
 
 
 .service_area .sec_title h2 {
@@ -532,10 +546,10 @@ a.hero_btn_2 {
     margin-bottom: 20px;
     height: 40px;
 }
-/*  Section End */
+/*service_area  Section End */
 
 
-/*  Section Start */
+/* WhoAreWe Section Start */
 
 
 section.WhoAreWe .row {
@@ -567,10 +581,10 @@ main.service .waw_left a:hover {
 .waw_left p {
     font-size: 18px;
 }
-/*  Section End */
+/* WhoAreWe Section End */
 
 
-/*  Section Start */
+/* feedback Section Start */
 .feedback {margin-top: 200px;margin-bottom: 0;}
 
 .feedback .row {
@@ -617,10 +631,10 @@ main.service .waw_left a:hover {
     color: var(--orange_color);
 }
 
-/*  Section End */
+/* feedback Section End */
 
 
-/*  Section Start */
+/* faq_area Section Start */
 
 .faq_area .bg_color {
     padding: 70px 0;
@@ -669,10 +683,10 @@ main.service .waw_left a:hover {
 
 .collapse {border: none;}
 .faq_collaps .accordion-body {font-size: 18px;}
-/*  Section End */
+/* faq_area Section End */
 
 
-/*  Section Start */
+/* client_area Section Start */
 .client_area {padding: 250px 0;position: relative;margin-bottom: 0;}
 .client_wrp {text-align: center;max-width: 600px;margin: auto;}
 
@@ -708,10 +722,10 @@ main.service .waw_left a:hover {
 a.free_btn {
     background: var(--green_color);
 }
-/*  Section End */
+/*client_area  Section End */
 
 
-/*  Section Start */
+/* blog_area Section Start */
 
 .blog_area .sec_title {
     max-width: 800px;
@@ -767,10 +781,25 @@ a.free_btn {
     margin-left: 10px;
 }
 
-/*  Section End */
+.blog_slide .owl-dot.active{
+    background: var(--blue_color);
+}
+.blog_slide .owl-dot{
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin: 0 4px;
+    border-radius: 50%;
+    border: 1px solid #0079e3;
+}
+.blog_slide .owl-dots{
+    width: max-content;
+    margin: auto;
+}
+/* blog_area Section End */
 
 
-/*  Section Start */
+/* mobile_apps Section Start */
 .mobile_apps {margin-bottom: 50px;margin-top: 200px;}
 
 section.mobile_apps .row {
@@ -811,7 +840,7 @@ a.google-play {
 }
 
 
-/*  Section End */
+/* mobile_apps Section End */
 
 
 
@@ -1013,9 +1042,9 @@ ul.social li a:hover i {
 
 
 
-/*================= Page Start ======================*/
+/*=================Profile Page Start ======================*/
 
-/*  Section Start */
+/* creative_area Section Start */
 
 a.crt_btn_color {
     background: var(--green_color);
@@ -1047,10 +1076,15 @@ a.crt_btn_color {
     height: 40px;
 }
 
-/*  Section End */
+
+.creative_area .svc1 {border-color: #FBC06C;}
+.creative_area .svc2 {border-color: #8FDCC6;}
+.creative_area .svc3 {border-color: #EEA1A6;}
+.creative_area .svc4 {border-color: #8CAEEC;}
+/* creative_area Section End */
 
 
-/*  Section Start */
+/* choose_area Section Start */
 
 section.choose_area .row {
     align-items: center;
@@ -1070,19 +1104,10 @@ section.choose_area .row {
     margin-bottom: 20px;
 }
 
-/*  Section End */
+/* choose_area Section End */
 
 
-/*  Section Start */
-
-.creative_area .svc1 {border-color: #FBC06C;}
-.creative_area .svc2 {border-color: #8FDCC6;}
-.creative_area .svc3 {border-color: #EEA1A6;}
-.creative_area .svc4 {border-color: #8CAEEC;}
-/*  Section End */
-
-
-/*  Section Start */
+/* app_download Section Start */
 .app_download {margin-bottom: 50px;}
 
 section.app_download .row {
@@ -1120,24 +1145,213 @@ section.app_download .row {
     margin: unset !important;
 }
 
+/* app_download Section End */
+
+
+/*==================Profile Page End =======================*/
+
+
+/*=================Contact Page Start ======================*/
+
+/*  Section Start */
+.get_in_touch {
+}
+.container {
+}
+.row {
+}
+.sec_title {
+}
+.get_in_touch_title {text-align: center;margin: 100px auto 50px;max-width: 450px;}
+.col-lg-12 {
+}
+.get_in_touch_wrp {display: flex;align-items: center;border-radius: 15px;overflow: hidden;}
+
+.get_in_touch_wrp i {
+    display: block;
+    flex: 0 0 50%;
+}
+
+.get_in_touch_wrp i img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.g_touch_content {padding: 0 50px;}
+
+.g_touch_content a {
+    padding: 13px 30px;
+    margin-top: 25px;
+}
+
+.g_touch_content h5 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0 10px;
+    line-height: 1.5;
+}
+.thm_btn {
+}
+
 /*  Section End */
 
 
-/*================== Page End =======================*/
+/*  Section Start */
+.contact_form {
+}
+.col-lg-8 {
+}
+.contact_form_wrp {display: flex;flex-wrap: wrap;justify-content: space-between;max-width: 750px;}
 
+.contact_form_wrp p {
+    width: 100%;
+    margin-top: 20px;
+}
 
-/*================= Page Start ======================*/
+.contact_form_wrp textarea {
+    width: 100% !important;
+    height: 150px !important;
+}
+
+.contact_form_wrp input,.contact_form_wrp textarea {
+    width: 48%;
+    margin-bottom: 25px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid rgba(8,60,130,.07);
+    padding: 15px;
+    transition: all .3s;
+}
+
+.contact_form_wrp input:focus-within, .contact_form_wrp textarea:focus-within {
+    border-color: var(--blue_color);
+}
+.col-lg-4 {
+}
+.contact_form_right {
+}
+.contact_form_blk {display: flex;align-items: baseline;margin-bottom: 10px;}
+
+.contact_form_blk i {
+    margin-right: 20px;
+    font-size: 20px;
+    color: var(--blue_color);
+}
+.far {
+}
+.fa-map-marker-alt {
+}
+.contact_form_info {
+}
+
+.contact_form_info h4 {
+    font-weight: 500;
+}
+
+.contact_form_info p {
+    opacity: .9;
+}
+.fa-phone-alt {
+}
+.fa-envelope {
+}
+
+/* The container */
+.container_check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    margin: 15px 0 30px;
+  }
+
+label.container_check a {
+    color: var(--blue_color);
+}
+  
+  /* Hide the browser's default checkbox */
+  .container_check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    border: 1px solid rgba(8,60,130,.07);
+    border-radius: 4px;
+  }
+
+  
+  /* On mouse-over, add a grey background color */
+  .container_check:hover input ~ .checkmark {
+    background-color: #0079e3;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container_check input:checked ~ .checkmark {
+    background-color: #0079e3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container_check input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container_check .checkmark:after {
+    left: 8px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .contact_form_select {
+    width: 48%;
+    height: 50px;
+}
+
+.contact_form_select .nice-select {
+    width: 100%;
+    height: 100%;
+}
+
+.contact_form_select .nice-select span {
+    font-size: 16px;
+    display: block;
+    margin-top: 4px;
+}
+/*  Section End */
+
 
 /*  Section Start */
 /*  Section End */
 
-
-/*  Section Start */
-/*  Section End */
-
-
-/*  Section Start */
-/*  Section End */
-
-/*================== Page End =======================*/
+/*==================Contact Page End =======================*/
 

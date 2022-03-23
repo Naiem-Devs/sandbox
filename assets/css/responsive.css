@@ -5,7 +5,16 @@
     max-width: 1000px;
 }
 .menu-area{
-    margin-right: -40px;
+    margin-right: -10px;
+}
+.header_btn {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+.contact_form_right {
+    width: max-content;
+    margin: auto;
 }
 }
 
@@ -16,14 +25,33 @@
         max-width: 933px;
     }
     .menu-area{
-        margin-right: -15px;
+    margin-right: 0;
     }
+
+.menu-area nav ul li a {
+    margin-left: 27px;
+}
     .svc_blk{
     padding: 40px 15px;
 }
 .svc_blk h4 {
     font-size: 19px;
 }
+.get_in_touch_wrp i img {
+    height: 390px;
+}
+
+.g_touch_content {
+    padding-right: 20px;
+}
+
+.g_touch_content h5 {
+    font-size: 18px;
+}
+.contact_form_wrp {
+    max-width: 590px;
+}
+
 
 }
 
@@ -151,7 +179,31 @@ main.service .waw_left a {
     padding: 9px 25px;
     margin-top: 20px;
 }
-/*===================== page Start */
+/*===================== page End */
+
+/*=====================Contact page Start */
+.get_in_touch_wrp.bg_color {
+    flex-direction: column;
+}
+
+.g_touch_content {
+    padding: 50px;
+}
+
+.contact_form_right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.contact_form_blk {
+    flex-direction: column;
+}
+
+.contact_form_blk i {
+    margin-bottom: 10px;
+}
+/*=====================Contact page Start */
 h2{
     font-size: 28px;
 }
@@ -423,11 +475,83 @@ main.service .svc_blk {
     margin: auto;
     margin-bottom: 30px;
 }
+
+
+/*=====================Contact page Start */
+.get_in_touch_wrp.bg_color {
+    flex-direction: column;
+}
+
+.g_touch_content {
+    padding: 20px;
+}
+
+.g_touch_content h1 {
+    font-size: 32px;
+}
+
+.g_touch_content h5 {
+    font-size: 18px;
+}
+
+.contact_form_right {
+    /* display: flex; */
+    margin-top: 40px;
+}
+
+.get_in_touch_title{
+    margin: 50px 0 30px;
+}
+
+.contact_form_blk i {
+    margin-bottom: 10px;
+}
+.contact_form_wrp input, .contact_form_wrp textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.contact_form_select {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container_check {
+    margin: 0px auto 25px;
+    font-size: 16px;
+    display: block;
+}
+
+.contact_form_wrp a {
+    margin: auto;
+}
+
+.contact_form_wrp p {
+    text-align: center;
+}
+
+a.thm_btn {
+    font-size: 15px;
+    padding: 12px 25px;
+}
+
+.contact_form_info h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.contact_form_info p {
+    font-size: 15px;
+}
+/*=====================Contact page Start */
  
 }
  
 /* Large Mobile screen :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 .container {width:450px}
- 
+.g_touch_content{
+    padding: 40px;
+}
 }

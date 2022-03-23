@@ -52,27 +52,35 @@
         </div>
         <div class="container main-header">
             <div class="row align-items-center">
-                <div class="col-lg-2 col-6">
+                <div class="col-lg-2 col-6 col-xl-2">
                     <div class="logo-area">
                         <a href="index.html"><img src="assets/img/branding/logo.png" alt=""></a>
                     </div>
                 </div>
-                <div class="col-lg-8 d-none d-lg-block text-right">
+                <div class="col-lg-6 col-xl-7 d-none d-lg-block text-right">
                     <div class="menu-area">
                         <nav>
                             <ul id="nav">
                                 <li><a href="index.html" class="active">Home</a></li>
-                                <li><a href="service.html">Services</a></li> 
-                                <li><a href="#">blog</a></li> 
+                                <li>
+                                    <a href="service.html" >Services <i class="fal fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="residential.html">Residential</a></li>
+                                        <li><a href="pre-construction.html">Pre-Construction</a></li>
+                                        <li><a href="commercial.html">Commercial</a></li>
+                                    </ul>
+                                </li> 
+                                <li><a href="blog.html">blog</a></li> 
                                 <li><a href="#">helpDesk</a></li> 
                                 <li><a href="profile.html">Profile</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
-                <div class="col-lg-2 d-none d-lg-block">
+                <div class="col-lg-4 col-xl-3 d-none d-lg-block">
                     <div class="header_btn">
-                        <a href="#" class="btn btn-blue rounded-pill">Contact</a>
+                        <a href="#" class="btn " style="background-color: var(--green_color);">listing search</a>
+                        <a href="#" class="btn ">Contact</a>
                     </div>
                 </div>
                 <div class="col-6 d-block d-lg-none text-center">
@@ -391,7 +399,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6">
+                    <div class="blog_slide owl-carousel">
                         <div class="blog_blk">
                             <i>
                                 <img src="assets/img/Page_img/b4.jpg" alt="">
@@ -406,8 +414,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
                         <div class="blog_blk">
                             <i>
                                 <img src="assets/img/Page_img/b5.jpg" alt="">
@@ -422,8 +428,6 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
                         <div class="blog_blk">
                             <i>
                                 <img src="assets/img/Page_img/b6.jpg" alt="">
@@ -431,6 +435,20 @@
                             <div class="blog_blk_cont">
                                 <span>Meeting</span>
                                 <h5>Ultricies fusce porta elit</h5>
+                                <p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.</p>
+                                <div class="blog_blk_btm">
+                                    <a href="#"><i class="fal fa-calendar-alt"></i> 14 apr 2021 <p><i class="fal fa-comment"></i> 4</p></a>
+                                    <a href="#"><i class="fal fa-heart"></i> 5</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog_blk">
+                            <i>
+                                <img src="assets/img/Page_img/b4.jpg" alt="">
+                            </i>
+                            <div class="blog_blk_cont">
+                                <span>Coding</span>
+                                <h5>Ligula tristique quis risus</h5>
                                 <p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.</p>
                                 <div class="blog_blk_btm">
                                     <a href="#"><i class="fal fa-calendar-alt"></i> 14 apr 2021 <p><i class="fal fa-comment"></i> 4</p></a>
@@ -553,6 +571,7 @@
     
 		<!-- JS here --> 
         <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/main.js"></script>
